@@ -1,0 +1,32 @@
+﻿
+.breadcrumb {
+	background-color: inherit;
+}
+
+ol.breadcrumb {
+	display: inline;
+} 
+
+ol.breadcrumb li {
+	font-weight: bold;
+} 
+
+.breadcrumb > li + li:before {
+    padding: 0 5px;
+    color: #ccc;
+    content: ">\00a0";
+}
+
+.breadcrumb li a {
+    color:#009688
+}
+
+/*.breadcrumb li a:hover {
+    color: #FF19E8;
+}*/
+
+.highlight {
+    background-color: #009688;
+    padding: 4px;
+    color: #fff;
+}

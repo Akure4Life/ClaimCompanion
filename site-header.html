@@ -1,0 +1,52 @@
+<nav class="navbar navbar-default navbar-fixed-top site-header">
+  <div class="container">
+    <ul class="nav navbar-nav navbar-top-nav">
+      <li><a href="/Home/AboutUs">About Us</a></li>
+
+      <li><a href="/Home/Contact">Contact</a></li>
+
+      <li><a href="/Home/FAQs">FAQs</a></li>
+
+      <li><a href="/Home/Feedback">Feedback</a></li>
+    </ul>
+    <div id="navbar" class="navbar-collapse collapse pull-right">
+      <form class="navbar-form navbar-right" method="post" action="/account/login">
+        <div class="form-group">
+          <input type="text" name="email" placeholder="Email" class="form-control">
+        </div>
+        <div class="form-group">
+          <input type="password" name="password" placeholder="Password" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-primary ">Sign in</button>
+      </form>
+    </div>
+    <ul class="nav navbar-nav navbar-right navbar-top-nav" style="display:none;">
+      <li><a href="#">Log In</a></li>
+
+      <li><a href="/account/register">Register</a></li>
+    </ul>
+  </div>
+  <div class="container-fluid nav-claim">
+    <div class="row">
+      <div class="container">
+        <div class="col-lg-6">
+          <div class="navbar-header">
+              <h1>                   
+                <a href="/" title="Claim companion logo" class="logo-image">
+                    <img src="images/logo/logocube_white_on_trans_border.svg" style="width:40px; height40px;display:inline" />
+                </a>
+                <a class="navbar-brand" href="/"><strong>CLAIM</strong> COMPANION</a>
+              </h1>
+          </div>
+        </div>
+        <div class="col-lg-6 claims">
+          <ul class="nav navbar-nav navbar-top-nav pull-right" id="claim-nav">
+            <li><a href="/Home/AboutUs">YOUR CLAIMS</a></li>
+            <li><a href="/Home/Contact">YOUR DETAILS</a></li>
+            <li><a href="/Home/FAQs">YOUR POLICY</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>

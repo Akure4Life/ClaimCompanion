@@ -1,0 +1,191 @@
+/* workflow-tile style starts here */
+.workflow-tile .thumbnail {
+    padding: 10px;
+	border-radius: 0px;
+    min-height: 479px;
+}
+
+.btn-circle {
+    border-radius: 50%;
+}
+
+.workflow-tile .thumbnail-highligted {
+    border: 1px solid #FF19E8;
+} 
+
+.thumbnail .col-xs-2 {
+    margin-top: 30px;
+}
+
+.thumbnail .caption h3 {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.thumbnail .caption small {
+    color:#000;
+}
+
+.thumbnail img {
+    height: 251px;
+    width: 360px;
+}
+    
+.caption p {
+    font-size: 10px;
+}
+
+.thumbnail .status-text p {
+    padding: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+
+.thumbnail .status-text p a {
+    text-decoration: none;
+    color: #333;
+    font-size: 12px;
+}
+
+.notification-icon  {
+    width: 30px;
+    height: 30px;
+    margin-top: -7px;
+    border:none;
+    position: absolute;
+    font-weight: bold;
+    font-size: 14px;
+    background: transparent url("/images/tileicons/icons_alert_pinkcircle.svg") no-repeat scroll 0% 0%;
+    color:#fff;
+}
+
+.notification-icon-circle  {
+    width: 30px;
+    height: 30px;
+    margin-top: -7px;
+    border:none;
+    position: absolute;
+    font-weight: bold;
+    font-size: 14px;
+    background: transparent url("/images/tileicons/icons_alert_pinkring.svg") no-repeat scroll 0% 0%;
+    color:#000;
+}
+
+
+.notification-icon-circle:focus,
+.notification-icon-circle:hover {
+    color:#009688;
+}
+
+.notification-icon:hover,
+.notification-icon:focus  {
+    background: transparent url("/images/tileicons/icons_alert_greencircle.svg") no-repeat scroll 0% 0%;
+}
+
+
+
+.locked-blk {
+    background: transparent url("/images/tileicons/locked_blk.svg") no-repeat scroll 0% 0%;
+    }
+ .hourglass-blk {
+    background: transparent url("/images/tileicons/hourglass_blk.svg") no-repeat scroll 0% 0%; 
+ }
+ 
+ .alert-blk {
+    background: transparent url("/images/tileicons/alert_blk.svg") no-repeat scroll 0% 0%; 
+ }
+ 
+ .priority-star-blk {
+    background: transparent url("/images/tileicons/priority_star_blk.svg") no-repeat scroll 0% 0%; 
+ }
+ 
+ .attachment-icon {
+    background: transparent url("/images/tileicons/attachment_blk.svg") no-repeat scroll 0% 0%; 
+ }
+ .camera-icon {
+    background: transparent url("/images/tileicons/photo_blk.svg") no-repeat scroll 0% 0%; 
+ }
+ 
+ .upload-icon {
+    background: transparent url("/images/tileicons/upload_blk.svg") no-repeat scroll 0% 0%; 
+ }
+ .popout {
+    background: transparent url("/images/tileicons/popout_blk.svg") no-repeat scroll 0% 0%; 
+ }
+
+
+.locked-blk, 
+.hourglass-blk,
+.alert-blk,
+.priority-star-blk {
+    width: 30px;
+    height: 30px;
+    margin-top: -7px;
+    position: absolute;
+}
+
+.popout  {
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    position: absolute;
+    opacity: 0.5;
+}
+
+.camera-icon,
+.attachment-icon,
+.upload-icon {
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    margin-left: -19px;
+    opacity: 0.6;
+ }
+
+.workflow-icons button {
+    border:none;
+}
+
+.image-size {
+    width: 100%s;
+    height: 252px;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.disabled-item {
+    background: lightgray;
+}
+
+.active-item {
+    background: #009688;
+}
+
+.in-progress-item {
+    background: #b2e4db;
+}
+
+.in-progress-item img,
+.disabled-item img {
+    opacity: 0.6;
+}
+
+.image-size img {
+    width: 150px;
+    height: 150px;
+}
+
+.status-text .btn-primary {
+    margin-top: 10px;
+}
+
+.disabled {
+    opacity: 0.5;
+}
+
+.workflow-icons .btn:hover,
+.workflow-icons .btn:focus {
+    background-color: transparent;
+    cursor: grab;
+}

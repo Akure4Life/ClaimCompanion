@@ -1,0 +1,63 @@
+/* Site-header styles */
+
+.navbar-default .navbar-nav > li > a {
+    font-weight: bold;
+}
+
+.navbar-top-nav li::after {
+    content: "|";
+    padding-left: 10px;
+    float: right;
+    margin-top: -36px;
+}
+
+#claim-nav  li a {
+    color: #fff;
+}
+
+#claim-nav li a:hover {
+    color: #FF19E8;
+}
+
+#claim-nav  li::after {
+    color:white;
+}
+
+.navbar-top-nav li:last-child::after {
+    content: "";
+    padding-left: 0px;
+}
+
+.navbar-brand {
+  font-size:24px;
+  font-weight:normal;
+  font-family: 'Questrial';
+  letter-spacing: 2px;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+  color: #FF19E8;
+  text-decoration: none;
+}
+
+.navbar-header h1 {
+    margin: 5px 0px 0px 0px;
+}
+
+.navbar-header .logo-image {
+    float: left;
+    margin-right: 10px;
+}
+
+.container .navbar-header .navbar-brand:hover,
+.container .navbar-header .navbar-brand:focus {
+    color: #fff;
+} 
+
+.nav-claim .claims {
+    padding-right: 0px;
+}
+
+#claim-nav {
+    margin-right: -15px;
+}

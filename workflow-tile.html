@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <title>Claim Companion</title>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+  <link href="css/_site.css" rel="stylesheet">
+  <script src="js/libs/jquery.js"></script>
+  <script src="js/libs/bootstrap.js"></script>
+  <script>
+        $(document).ready(function () {
+            $(".thumbnail .active-item").mouseover(function () {
+                $(this).parent().addClass("thumbnail-highligted");
+            }).mouseout(function () {
+                $(this).parent().removeClass("thumbnail-highligted");
+            });
+            $(".thumbnail .status-text .btn-block").mouseover(function () {
+                $(this).parent().parent().parent().addClass("thumbnail-highligted");
+            }).mouseout(function () {
+                $(this).parent().parent().parent().removeClass("thumbnail-highligted");
+            });
+            $(".thumbnail .status-text .pull-right, .thumbnail .active-btns button").mouseover(function () {
+                $(this).parent().parent().parent().parent().addClass("thumbnail-highligted");
+            }).mouseout(function () {
+                $(this).parent().parent().parent().parent().removeClass("thumbnail-highligted");
+            });
+            
+        });
+    </script>
+</head>
+
+<body>
+    <div class="container" style="margin-top:40px">
+        <div class="row">
+            <div class="col-sm-6 col-md-3 workflow-tile">
+                    <span class="glyphicon locked-blk" aria-hidden="true"> </span>
+                <div class="thumbnail">
+                    <div class="image-size disabled-item">
+                        <img src="images/itemtypeicons/folder.svg" alt="..." height="200" width="200">
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-2">
+                            <div class="workflow-icons">
+                                <button type="button" class="btn btn-default disabled" aria-label="paperclip">
+                                    <span class="glyphicon attachment-icon disabled" aria-hidden="true"></span>
+                                </button>
+                            </div> 
+                        </div>
+                        <div class="col-xs-9">  
+                            <div class="caption">
+                                <h3>The Incident <small> Accidental damage</small></h3>
+                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit</p>                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row status-text">
+                       <div class="col-xs-12"> 
+                        <p><a href="#" class="pull-left" >This section is complete</a> <a href="#" class="pull-right">View <span class="glyphicon popout" aria-hidden="true"></span></a></p>
+                        
+                       </div>
+                    </div>    
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3 workflow-tile">
+                <div>
+                    <span class="hourglass-blk"> </span>
+                    <button type="button" class="btn-icon btn-circle notification-icon" aria-label="Left Align" style="left:42px;">
+                        <span>5</span>
+                    </button>
+                    <span class="priority-star-blk" style="left:70px;"> </span>
+                </div>
+                <div class="thumbnail">
+                    <div class="image-size active-item">
+                        <img src="images/itemtypeicons/uploadgallery.svg" alt="..." height="200" width="200">
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-2">
+                            <div class="workflow-icons active-btns">
+                                 <button type="button" class="btn btn-default" aria-label="photo">
+                                    <span class="glyphicon camera-icon" aria-hidden="true"></span>
+                                </button>
+                                 <button type="button" class="btn btn-default" aria-label="paperclip">
+                                    <span class="glyphicon attachment-icon" aria-hidden="true"></span>
+                                </button>
+                                <button type="button" class="btn btn-default" aria-label="upload">
+                                    <span class="glyphicon upload-icon" aria-hidden="true"></span>
+                                </button>
+                            </div> 
+                        </div>
+                        <div class="col-xs-9">  
+                            <div class="caption">
+                                <h3>The Incident <small> Accidental damage</small></h3>
+                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit</p>                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row status-text">
+                       <div class="col-xs-12"> 
+                        <button type="button" class="btn btn-primary btn-md btn-block">Block level button</button>
+                       </div>
+                    </div>    
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3 workflow-tile">
+                <span class="alert-blk"> </span>
+                 <button type="button" class="btn-icon btn-circle notification-icon-circle" aria-label="Left Align" style="left:42px;">
+                        <span>5</span>
+                    </button>
+                <div class="thumbnail">
+                     <div class="image-size active-item">
+                        <img src="images/itemtypeicons/smartphone.svg" alt="..." height="200" width="200">
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-2">
+                            <div class="workflow-icons active-btns">
+                                <button type="button" class="btn btn-default" aria-label="upload">
+                                    <span class="glyphicon upload-icon" aria-hidden="true"></span>
+                                </button>
+                            </div> 
+                        </div>
+                        <div class="col-xs-9">  
+                            <div class="caption">
+                                <h3>The Incident <small> Accidental damage</small></h3>
+                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit</p>                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row status-text">
+                       <div class="col-xs-12"> 
+                        <button type="button" class="btn btn-primary btn-md btn-block">Block level button</button>
+                       </div>
+                    </div>    
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3 workflow-tile">
+                    <span class="hourglass-blk"> </span>
+                <div class="thumbnail">
+                    <div class="image-size in-progress-item">
+                        <img src="images/itemtypeicons/headphones.svg" alt="..." height="200" width="200">
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-2">
+                            <div class="workflow-icons">
+                                <button type="button" class="btn btn-default disabled" aria-label="paperclip">
+                                    <span class="glyphicon attachment-icon disabled" aria-hidden="true"></span>
+                                </button>
+                            </div> 
+                        </div>
+                        <div class="col-xs-9">  
+                            <div class="caption">
+                                <h3>The Incident <small> Accidental damage</small></h3>
+                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit</p>                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row status-text">
+                       <div class="col-xs-12"> 
+                        <p><a href="#" class="pull-left" >Undergoing inspection</a> <a href="#" class="pull-right">Details <span class="glyphicon popout" aria-hidden="true"></span></a></p>
+                       </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+</body>
+
+</html>
